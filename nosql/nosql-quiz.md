@@ -420,3 +420,12 @@ MATCH (t:Technology)-[:LIKES]-(a:Person {name: 'Jennifer'}) RETURN t.type;
 - [ ] Bigtable
 - [x] Redis
 - [ ] HBase
+
+#### Q57. what is the most popular open source key-value store database?
+-[x] Amazon DynamoDB
+-[] Cosmo
+-[] Mongo
+-[] Graph
+
+#### Q58. In dynamodb the partition key and sort key are also known as which types of attributes
+-[x] hash attribute
